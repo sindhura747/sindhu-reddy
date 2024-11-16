@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Wrap Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2px; 
+            border: 1px solid #ccc;
+            padding: 1px;
+        }
+        .item {
+            background-color: blue;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            box-sizing: border-box;
+            border-radius: 1px;
+        }
+        .item.large {
+            flex: 2 1 calc(60% - 10px); 
+        }
+    </style>
+</head>
+<body>
+    <h1>Flex Wrap Example</h1>
+    <div class="container">
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+        <div class="item">D</div>
+       
+    </div>
+</body>
+</html>
+
+  
+
+
+        
+
+    
+
+
+    
